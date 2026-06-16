@@ -1,0 +1,13 @@
+<app-container>
+	<div class="cartaz-container">
+		<h2>Em Cartaz</h2>
+		<div class="card-wrapper">
+			@for (item of (filmes | async); track item.id) {
+			<app-card-filme [filme]="item"></app-card-filme>
+			}
+		</div>
+	</div>
+</app-container>
+
+
+

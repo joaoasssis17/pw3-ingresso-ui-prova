@@ -1,0 +1,15 @@
+.cartaz-container {
+	  padding: 32px 0;
+	}
+	
+	.cartaz-container h2 {
+	  color: #1D1B20;
+	  margin-bottom: 24px;
+	  font-size: 24px;
+	}
+	
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* permite quebrar linha */
+  gap: 16px; /* espaço entre os cards */
+}
